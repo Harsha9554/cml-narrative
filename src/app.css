@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Cantora One';
+	src: url('/font/CantoraOne-Regular.ttf');
+}
+@font-face {
+	font-family: 'Mokoto';
+	src: url('/font/MokotoGlitch.ttf');
+}
+
+.grid-background {
+	background-size: 50px 40px;
+	background-image: linear-gradient(to right, rgba(128, 128, 128, 0.252) 1px, transparent 1px),
+		linear-gradient(to bottom, rgba(128, 128, 128, 0.252) 1px, transparent 1px);
+}
+
+.tablet-gradient {
+	background: rgb(26, 26, 166);
+	background: radial-gradient(circle, rgba(26, 26, 166, 1) 0%, rgba(2, 0, 36, 1) 63%);
+}
+
+.hud-red-blue-border {
+	border: 20px solid;
+	border-image: url('/img/svg/borders/hud-border.svg');
+	border-image-slice: 10;
+	@apply rounded-lg bg-teal-800 bg-opacity-70 bg-blend-darken;
+}
+
+.profile-banner {
+	border: 20px solid;
+	border-image: url('/img/misc/rounded-profile-banner.png');
+	border-image-slice: 10;
+	@apply rounded-full;
+}

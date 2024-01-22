@@ -1,6 +1,6 @@
 # cml-narrative
 
-![logo](/assets/spot/SPOT-logo.svg)
+![logo](/static/img/logos/SPOT-logo.svg)
 This repository contains the narrative web app portion of the CML project.
 
 ## About
